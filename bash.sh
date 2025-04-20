@@ -9,6 +9,7 @@ alias load='source ~/.zshrc'
 alias newBranch='git checkout -b'
 alias setSSH='git remote set-url origin'
 alias gcm='git checkout main'
+alias goto='git checkout'
 
 # pushes current branch to remote
 gpush(){
