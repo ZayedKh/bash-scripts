@@ -10,6 +10,7 @@ alias newBranch='git checkout -b'
 alias setSSH='git remote set-url origin'
 alias gcm='git checkout main'
 alias goto='git checkout'
+alias gd='git diff'
 
 # pushes current branch to remote
 gpush(){
