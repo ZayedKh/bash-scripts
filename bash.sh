@@ -11,6 +11,7 @@ alias setSSH='git remote set-url origin'
 alias gcm='git checkout main'
 alias goto='git checkout'
 alias gd='git diff'
+alias qfix='git commit --amend --no-edit && git push --force'
 
 # pushes current branch to remote
 gpush(){
