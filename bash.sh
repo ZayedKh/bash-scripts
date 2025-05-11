@@ -13,6 +13,10 @@ alias goto='git checkout'
 alias gd='git diff'
 alias qfix='git commit --amend --no-edit && git push --force'
 
+cs(){
+    cd "$1" && ls
+}
+
 # pushes current branch to remote
 gpush(){
         BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
